@@ -1,7 +1,143 @@
-main section.hero div.herotext{
-    display: inline;
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
 }
 
-main section.hero img{
-    
+main, footer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header li:hover {
+    color: #fe6244;
+    text-decoration: underline;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header p {
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fe6244;
+}
+
+section.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+section.hero img {
+    max-width: 469px;
+    height: 680px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+section.hero div.text{
+    margin-bottom: 60px;
+}
+
+section.hero div.text h2{
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0;
+}
+
+section.hero div.text h3{
+    font-weight: 400;
+    font-size: 28px;
+    margin: 0;
+}
+
+main section.tab1{
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+main section.tab1 div {
+    color: white;
+}
+
+main section.tab1 div img {
+    object-fit: cover;
+    height: 240px;
+    width: 400px;
+    margin: 0;
+}
+
+main section.tab1 div h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+main section.tab1 div h3 { /*avvicinare l'h3 all'h2*/
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+main section.tab1 div p {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 25px 25px 25px;
+    margin: 0;
+}
+
+main section.tab1 div.card1 {
+    background-color: #fe6244;
+}
+
+main section.tab1 div.card2 {
+    background-color: #fc2947;
+}
+
+main section.tab1 div.card3 {
+    background-color: #7149c6;
+}
+
+main section.tab1 div div { /*avvicinare ancora di più i rettangoli verso il centro*/
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 13px;
+    padding: 0 10px;
+}
+
+main section.tab1 div div p {
+    color: black;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 2px 15px;
 }
