@@ -15,8 +15,8 @@ header a {
     color: black;
 }
 
-header li:hover {
-    color: #fe6244;
+header nav ul li a:hover {
+    color: #7149c6;
     text-decoration: underline;
 }
 
