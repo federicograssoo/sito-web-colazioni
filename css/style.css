@@ -103,7 +103,7 @@ main section.tab1 div h3 { /*avvicinare l'h3 all'h2*/
     text-align: center;
     font-weight: 300;
     font-size: 17px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     margin: 0;
 }
 
@@ -140,4 +140,64 @@ main section.tab1 div div p {
     font-weight: 300;
     margin: 0;
     padding: 2px 15px;
+}
+
+main section.tab2 div {
+    background-color: #fe6244;
+    color: white;
+    max-width: max-content;
+}
+
+main section.tab2 div h2 {
+    font-weight: 600;
+    font-size: 32px;
+    padding-left: 25px;
+    margin: 0;
+}
+
+main section.tab2 div h3 {
+    font-weight: 300;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+main section.tab2 div div p {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 35px 35px 0 35px;
+    margin: 0;
+}
+
+main section.tab2 div div img {
+    object-fit: cover;
+    height: 330px;
+    width: 552px;
+    margin: 0;
+}
+
+main section.tab2 div.card1 div.first {
+    display: flex;
+}
+
+main section.tab2 div.card1 div.second {
+    display: flex;
+    align-items: baseline;
+    gap: 30px
+}
+
+main section.tab2 div.card1 div.first div.tag div p{
+    color: black;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 2px 15px;
+}
+
+main section.tab2 div.card1 div.tag {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 13px;
+    padding: 0 10px;
 }
